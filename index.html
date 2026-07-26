@@ -1,147 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>IPTV Quantum Hub | Future Streaming Resources</title>
+<title>Best IPTV Services 2026 | IPTV Guides & Resources</title>
 
-<meta name="description"
-content="Explore IPTV guides, GitHub projects, streaming tutorials and premium IPTV learning resources in a futuristic platform.">
+<meta name="description" content="Discover the best IPTV services, IPTV guides, GitHub repositories, YouTube tutorials, and premium IPTV resources in one place.">
 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<meta name="keywords" content="Best IPTV, IPTV USA, IPTV Guide, IPTV 2026, IPTV Player, IPTV Service">
 
+<meta name="author" content="Kevin Webix">
+
+<meta property="og:title" content="Best IPTV Services 2026">
+
+<meta property="og:description" content="Complete IPTV Resources & Guides">
+
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="hero.jpg">
+
+<meta property="og:url" content="https://best-iptv-for-usa.github.io/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <style>
-
 
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 scroll-behavior:smooth;
+font-family:Poppins,sans-serif;
 }
-
 
 body{
 
-background:#050505;
-color:white;
-font-family:'Poppins',sans-serif;
+background:#050816;
+
+color:#fff;
+
 overflow-x:hidden;
 
 }
 
+body::-webkit-scrollbar{
 
-:root{
-
---cyan:#00f5ff;
---purple:#8b5cf6;
---pink:#ff00d4;
-
---glass:
-rgba(255,255,255,0.07);
+width:10px;
 
 }
 
+body::-webkit-scrollbar-thumb{
+
+background:#00ffd5;
+
+border-radius:20px;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:white;
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
 
 .container{
 
-width:90%;
-max-width:1400px;
+max-width:1300px;
+
 margin:auto;
 
 }
 
+/*==================*/
 
-
-/* =====================
-SPACE BACKGROUND
-===================== */
-
-
-body::before{
-
-content:"";
-
-position:fixed;
-
-width:600px;
-height:600px;
-
-background:#00f5ff;
-
-filter:blur(180px);
-
-top:-200px;
-left:-200px;
-
-opacity:.18;
-
-z-index:-2;
-
-}
-
-
-
-body::after{
-
-content:"";
-
-position:fixed;
-
-width:600px;
-height:600px;
-
-background:#8b5cf6;
-
-filter:blur(180px);
-
-right:-200px;
-bottom:-200px;
-
-opacity:.15;
-
-z-index:-2;
-
-}
-
-
-
-
-
-/* =====================
-NAVBAR
-===================== */
-
-
-.navbar{
+header{
 
 position:fixed;
 
 top:0;
+
 left:0;
 
 width:100%;
 
-padding:25px 0;
-
-background:rgba(5,5,5,.65);
+z-index:999;
 
 backdrop-filter:blur(20px);
 
-border-bottom:1px solid rgba(255,255,255,.08);
+background:rgba(0,0,0,.35);
 
-z-index:999;
-
+border-bottom:1px solid rgba(255,255,255,.1);
 
 }
 
-
-
-.nav-flex{
+nav{
 
 display:flex;
 
@@ -149,54 +118,37 @@ justify-content:space-between;
 
 align-items:center;
 
+padding:18px 8%;
 
 }
-
-
 
 .logo{
 
-font-family:'Orbitron';
-
 font-size:30px;
 
-font-weight:900;
+font-weight:800;
 
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#ff00d4
-);
-
-
--webkit-background-clip:text;
-
--webkit-text-fill-color:transparent;
-
+color:#00ffd5;
 
 }
 
+.logo span{
 
+color:#fff;
 
+}
 
-.nav-links{
+nav ul{
 
 display:flex;
 
 gap:35px;
 
+list-style:none;
+
 }
 
-
-
-.nav-links a{
-
-color:white;
-
-text-decoration:none;
+nav ul li a{
 
 font-weight:500;
 
@@ -204,253 +156,99 @@ transition:.3s;
 
 }
 
+nav ul li a:hover{
 
-
-.nav-links a:hover{
-
-color:var(--cyan);
+color:#00ffd5;
 
 }
 
+.btn{
 
+display:inline-block;
 
-
-
-.nav-buttons{
-
-display:flex;
-
-gap:15px;
-
-}
-
-
-
-.nav-btn{
-
-padding:13px 28px;
+padding:14px 35px;
 
 border-radius:50px;
 
-text-decoration:none;
+background:#00ffd5;
 
-color:white;
-
-border:1px solid rgba(255,255,255,.15);
-
-}
-
-
-
-.primary-btn{
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#8b5cf6
-);
-
-border:none;
+color:#111;
 
 font-weight:700;
 
+transition:.4s;
+
 }
 
+.btn:hover{
 
+transform:translateY(-6px);
 
+box-shadow:0 0 35px #00ffd5;
 
-
-/* =====================
-HERO
-===================== */
-
+}
 
 .hero{
-
-
-padding-top:180px;
 
 min-height:100vh;
 
 display:flex;
 
-align-items:center;
-
-
-}
-
-
-
-
-.hero-grid{
-
-
-display:grid;
-
-grid-template-columns:1fr 1fr;
-
-gap:80px;
+justify-content:space-between;
 
 align-items:center;
 
+gap:70px;
 
 }
 
+.hero-content{
 
-
-
-.hero-tag{
-
-
-display:inline-block;
-
-padding:12px 25px;
-
-border-radius:50px;
-
-background:
-
-rgba(0,245,255,.1);
-
-border:1px solid rgba(0,245,255,.3);
-
-color:var(--cyan);
-
-margin-bottom:30px;
-
+flex:1;
 
 }
 
+.hero-content h1{
 
+font-size:62px;
 
+line-height:1.1;
 
-.hero h1{
-
-
-font-family:'Orbitron';
-
-font-size:70px;
-
-line-height:1.2;
-
+margin-bottom:20px;
 
 }
 
+.hero-content h1 span{
 
-
-.hero h1 span{
-
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#ff00d4
-);
-
-
--webkit-background-clip:text;
-
--webkit-text-fill-color:transparent;
-
+color:#00ffd5;
 
 }
 
-
-
-.hero p{
-
-
-margin-top:30px;
+.hero-content p{
 
 font-size:18px;
 
-line-height:2;
+line-height:1.8;
 
-color:#cbd5e1;
+opacity:.85;
 
-max-width:600px;
-
+margin-bottom:35px;
 
 }
 
-
-
-
-.hero-actions{
-
+.hero-btns{
 
 display:flex;
 
 gap:20px;
 
-margin-top:40px;
-
-
-}
-
-
-
-
-.action-btn{
-
-
-padding:18px 40px;
-
-border-radius:50px;
-
-text-decoration:none;
-
-font-weight:700;
-
-color:white;
-
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#8b5cf6
-);
-
+flex-wrap:wrap;
 
 }
 
+.hero-image{
 
-
-.video-btn{
-
-
-padding:18px 40px;
-
-border-radius:50px;
-
-border:1px solid rgba(255,255,255,.15);
-
-text-decoration:none;
-
-color:white;
-
-
-}
-
-
-
-
-
-/* =====================
-3D IPTV CORE
-===================== */
-
-
-.hero-visual{
-
-
-height:600px;
+flex:1;
 
 display:flex;
 
@@ -458,1917 +256,93 @@ justify-content:center;
 
 align-items:center;
 
-position:relative;
-
-
 }
 
+.circle{
 
-
-.core{
-
-
-width:330px;
-
-height:330px;
-
-border-radius:50%;
-
-
-background:
-
-linear-gradient(
-135deg,
-#00f5ff,
-#8b5cf6,
-#ff00d4
-);
-
-
-box-shadow:
-
-0 0 100px #00f5ff;
-
-
-animation:
-float 5s infinite;
-
-
-}
-
-
-
-.ring{
-
-
-position:absolute;
-
-border-radius:50%;
-
-border:1px solid rgba(255,255,255,.25);
-
-
-animation:rotate 15s linear infinite;
-
-
-}
-
-
-
-.ring.one{
-
-width:400px;
-height:400px;
-
-
-}
-
-
-.ring.two{
-
-width:500px;
-height:500px;
-
-animation-duration:25s;
-
-
-}
-
-
-.ring.three{
-
-width:600px;
-height:600px;
-
-animation-duration:40s;
-
-}
-
-
-
-
-.core-card{
-
-
-position:absolute;
-
-padding:35px;
-
-width:320px;
-
-background:
-
-rgba(255,255,255,.08);
-
-
-backdrop-filter:blur(20px);
-
-
-border-radius:30px;
-
-
-text-align:center;
-
-
-border:1px solid rgba(255,255,255,.15);
-
-
-}
-
-
-
-.core-card h2{
-
-
-font-family:'Orbitron';
-
-font-size:30px;
-
-margin-bottom:15px;
-
-
-}
-
-
-
-.core-card p{
-
-color:#ddd;
-
-line-height:1.8;
-
-}
-
-
-
-
-
-@keyframes float{
-
-
-50%{
-
-transform:translateY(-20px);
-
-}
-
-}
-
-
-
-@keyframes rotate{
-
-
-100%{
-
-transform:rotate(360deg);
-
-}
-
-}
-
-
-
-
-
-@media(max-width:1000px){
-
-
-.hero-grid{
-
-grid-template-columns:1fr;
-
-}
-
-
-.hero h1{
-
-font-size:45px;
-
-}
-
-
-.nav-links{
-
-display:none;
-
-}
-
-
-.hero-visual{
+width:450px;
 
 height:450px;
 
-}
+border-radius:50%;
 
-
-}
-
-
-
-</style>
-
-</head>
-
-
-<body>
-<!-- =====================================
-PART 2 : RESOURCE GALAXY
-===================================== -->
-
-
-<section class="resources" id="resources">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-<span>
-🌌 Digital Resource Galaxy
-</span>
-
-<h2>
-Explore IPTV Knowledge Universe
-</h2>
-
-<p>
-Premium guides, developer tools, tutorials and
-streaming resources collected in one futuristic hub.
-</p>
-
-</div>
-
-
-
-<div class="resource-grid">
-
-
-
-<div class="resource-card">
-
-<div class="card-icon">
-📚
-</div>
-
-<h3>
-IPTV Guides
-</h3>
-
-<p>
-Learn IPTV basics, setup methods,
-players, devices and streaming technology.
-</p>
-
-
-<a href="#">
-Explore →
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="resource-card">
-
-<div class="card-icon">
-💻
-</div>
-
-<h3>
-GitHub Projects
-</h3>
-
-<p>
-Discover open-source IPTV projects,
-developer tools and useful repositories.
-</p>
-
-
-<a href="#github">
-View Projects →
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="resource-card">
-
-<div class="card-icon">
-🎬
-</div>
-
-<h3>
-Video Tutorials
-</h3>
-
-<p>
-Watch IPTV setup tutorials,
-configuration guides and learning videos.
-</p>
-
-
-<a href="#videos">
-Watch →
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="resource-card">
-
-<div class="card-icon">
-⚡
-</div>
-
-<h3>
-Streaming Tools
-</h3>
-
-<p>
-Explore IPTV players, resources and
-modern streaming solutions.
-</p>
-
-
-<a href="#">
-Discover →
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- =====================================
-GITHUB EXPLORER
-===================================== -->
-
-
-<section class="github-area" id="github">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-<span>
-💻 Open Source Zone
-</span>
-
-
-<h2>
-GitHub IPTV Explorer
-</h2>
-
-
-<p>
-Explore IPTV related projects and developer resources.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="github-box">
-
-
-
-<div class="github-main">
-
-
-<div class="github-logo">
-
-🐙
-
-</div>
-
-
-
-<h3>
-IPTVPlayerGuide
-</h3>
-
-
-<p>
-
-A developer focused IPTV resource
-repository containing guides,
-tools and educational projects.
-
-</p>
-
-
-
-<div class="github-buttons">
-
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-View Repository →
-
-</a>
-
-
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-Follow Project
-
-</a>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-<div class="github-stats">
-
-
-
-<div>
-
-<h2>
-250+
-</h2>
-
-<p>
-Resources
-</p>
-
-</div>
-
-
-
-<div>
-
-<h2>
-100+
-</h2>
-
-<p>
-Guides
-</p>
-
-</div>
-
-
-
-<div>
-
-<h2>
-24/7
-</h2>
-
-<p>
-Community
-</p>
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- =====================================
-YOUTUBE VIDEO PORTAL
-===================================== -->
-
-
-<section class="video-area" id="videos">
-
-
-<div class="container">
-
-
-
-<div class="section-head">
-
-
-<span>
-🎥 Learning Studio
-</span>
-
-
-<h2>
-IPTV Video Tutorial Portal
-</h2>
-
-
-<p>
-
-Step-by-step IPTV learning videos
-for beginners and advanced users.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="video-box">
-
-
-
-<div class="video-content">
-
-
-<div class="youtube-icon">
-
-▶
-
-</div>
-
-
-
-<h3>
-
-Complete IPTV Setup Tutorial
-
-</h3>
-
-
-<p>
-
-Learn IPTV setup,
-player configuration,
-device installation
-and streaming tips.
-
-</p>
-
-
-
-<ul>
-
-
-<li>
-✔ Beginner Friendly
-</li>
-
-
-<li>
-✔ Setup Explanation
-</li>
-
-
-<li>
-✔ Device Support
-</li>
-
-
-<li>
-✔ Practical Guide
-</li>
-
-
-</ul>
-
-
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank">
-
-Watch On YouTube →
-
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="video-screen">
-
-
-<div class="screen-inner">
-
-
-▶
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<style>
-
-
-
-/* =========================
-SECTION HEADER
-========================= */
-
-
-.section-head{
-
-text-align:center;
-
-margin-bottom:70px;
-
-}
-
-
-
-.section-head span{
-
-color:#00f5ff;
-
-font-weight:600;
-
-letter-spacing:2px;
-
-}
-
-
-
-.section-head h2{
-
-font-family:'Orbitron';
-
-font-size:48px;
-
-margin:20px 0;
-
-}
-
-
-
-.section-head p{
-
-color:#cbd5e1;
-
-max-width:700px;
-
-margin:auto;
-
-line-height:2;
-
-}
-
-
-
-
-/* =========================
-RESOURCE CARDS
-========================= */
-
-
-.resources,
-.github-area,
-.video-area{
-
-padding:120px 0;
-
-}
-
-
-
-.resource-grid{
-
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:30px;
-
-
-}
-
-
-
-.resource-card{
-
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border:1px solid rgba(255,255,255,.12);
-
-
-padding:35px;
-
-
-border-radius:30px;
-
-
-transition:.4s;
-
-
-}
-
-
-
-.resource-card:hover{
-
-
-transform:translateY(-15px);
-
-
-box-shadow:
-
-0 20px 50px rgba(0,245,255,.15);
-
-
-border-color:#00f5ff;
-
-
-}
-
-
-
-
-.card-icon{
-
-font-size:55px;
-
-margin-bottom:25px;
-
-}
-
-
-
-.resource-card h3{
-
-font-size:26px;
-
-margin-bottom:15px;
-
-}
-
-
-
-.resource-card p{
-
-color:#cbd5e1;
-
-line-height:1.8;
-
-}
-
-
-
-.resource-card a{
-
-display:inline-block;
-
-margin-top:25px;
-
-color:#00f5ff;
-
-text-decoration:none;
-
-font-weight:700;
-
-}
-
-
-
-
-
-/* =========================
-GITHUB
-========================= */
-
-
-.github-box{
-
-
-display:grid;
-
-grid-template-columns:1fr .8fr;
-
-gap:40px;
-
-
-padding:50px;
-
-
-background:
-
-linear-gradient(
-135deg,
-rgba(0,245,255,.12),
-rgba(139,92,246,.12)
-);
-
-
-border-radius:40px;
-
-border:1px solid rgba(255,255,255,.12);
-
-
-}
-
-
-
-.github-logo{
-
-font-size:70px;
-
-margin-bottom:20px;
-
-}
-
-
-
-.github-main h3{
-
-font-family:'Orbitron';
-
-font-size:38px;
-
-}
-
-
-
-.github-main p{
-
-margin:20px 0;
-
-color:#ddd;
-
-line-height:2;
-
-}
-
-
-
-.github-buttons{
+background:linear-gradient(135deg,#00ffd5,#0055ff);
 
 display:flex;
-
-gap:20px;
-
-}
-
-
-
-.github-buttons a{
-
-
-padding:15px 30px;
-
-
-border-radius:50px;
-
-
-text-decoration:none;
-
-
-color:white;
-
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#8b5cf6
-);
-
-
-}
-
-
-
-.github-stats{
-
-
-display:grid;
-
-grid-template-columns:1fr;
-
-gap:20px;
-
-
-}
-
-
-
-.github-stats div{
-
-
-background:rgba(255,255,255,.08);
-
-
-padding:30px;
-
-
-border-radius:25px;
-
-
-text-align:center;
-
-
-}
-
-
-
-.github-stats h2{
-
-font-family:'Orbitron';
-
-font-size:42px;
-
-color:#00f5ff;
-
-}
-
-
-
-
-
-/* =========================
-VIDEO
-========================= */
-
-
-
-.video-box{
-
-
-display:grid;
-
-grid-template-columns:1fr 1fr;
-
-gap:50px;
-
-
-padding:50px;
-
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border-radius:40px;
-
-
-border:1px solid rgba(255,255,255,.1);
-
-
-}
-
-
-
-.youtube-icon{
-
-
-font-size:70px;
-
-color:#ff0000;
-
-}
-
-
-
-.video-content h3{
-
-
-font-family:'Orbitron';
-
-font-size:35px;
-
-margin:20px 0;
-
-
-}
-
-
-
-.video-content p{
-
-
-color:#cbd5e1;
-
-line-height:2;
-
-
-}
-
-
-
-.video-content ul{
-
-list-style:none;
-
-margin:25px 0;
-
-}
-
-
-.video-content li{
-
-margin-bottom:12px;
-
-}
-
-
-
-.video-content a{
-
-
-display:inline-block;
-
-
-padding:17px 35px;
-
-
-background:
-
-linear-gradient(
-90deg,
-#ff0000,
-#ff00d4
-);
-
-
-border-radius:50px;
-
-
-color:white;
-
-text-decoration:none;
-
-
-font-weight:700;
-
-
-}
-
-
-
-.video-screen{
-
-
-display:flex;
-
-align-items:center;
 
 justify-content:center;
 
+align-items:center;
+
+box-shadow:0 0 100px rgba(0,255,213,.4);
+
+animation:float 4s ease-in-out infinite;
 
 }
 
+.circle i{
 
+font-size:170px;
 
-.screen-inner{
+color:white;
 
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+}
+
+.glow{
+
+position:fixed;
 
 width:350px;
 
-height:220px;
+height:350px;
 
+background:#00ffd5;
 
-border-radius:30px;
+filter:blur(180px);
 
+opacity:.18;
 
-background:
+top:-100px;
 
-linear-gradient(
-135deg,
-#111827,
-#000
-);
+left:-100px;
 
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-font-size:70px;
-
-
-box-shadow:
-
-0 0 60px rgba(255,0,212,.4);
-
+z-index:-1;
 
 }
 
+.glow2{
 
+position:fixed;
 
+width:350px;
 
+height:350px;
 
-@media(max-width:1000px){
+background:#0048ff;
 
+filter:blur(180px);
 
-.resource-grid{
+opacity:.18;
 
-grid-template-columns:1fr 1fr;
+right:-100px;
 
-}
+bottom:-100px;
 
-
-.github-box,
-.video-box{
-
-grid-template-columns:1fr;
-
-}
-
+z-index:-1;
 
 }
 
-
-
-@media(max-width:600px){
-
-
-.resource-grid{
-
-grid-template-columns:1fr;
-
-}
-
-
-.section-head h2{
-
-font-size:34px;
-
-}
-
-
-.github-buttons{
-
-flex-direction:column;
-
-}
-
-}
-
-
-</style>
-
-<!-- =====================================
-PART 3 : FEATURES + TIMELINE + FAQ
-===================================== -->
-
-
-<section class="quantum-features">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-<span>
-⚡ Quantum Advantages
-</span>
-
-<h2>
-Why Choose IPTV Quantum Hub?
-</h2>
-
-<p>
-A futuristic ecosystem built for learning,
-exploring and discovering IPTV resources.
-</p>
-
-</div>
-
-
-
-<div class="feature-grid">
-
-
-
-<div class="feature-card">
-
-<div class="feature-icon">
-🚀
-</div>
-
-<h3>
-Fast Experience
-</h3>
-
-<p>
-Optimized interface with smooth animations,
-modern UI and lightning-fast navigation.
-</p>
-
-</div>
-
-
-
-
-
-<div class="feature-card">
-
-<div class="feature-icon">
-🌐
-</div>
-
-<h3>
-Global Resources
-</h3>
-
-<p>
-Access IPTV guides, tutorials and technology
-resources from one platform.
-</p>
-
-</div>
-
-
-
-
-
-<div class="feature-card">
-
-<div class="feature-icon">
-🧠
-</div>
-
-<h3>
-Smart Learning
-</h3>
-
-<p>
-Beginner friendly content with simple
-explanations and practical guides.
-</p>
-
-</div>
-
-
-
-
-
-<div class="feature-card">
-
-<div class="feature-icon">
-🔒
-</div>
-
-<h3>
-Reliable Hub
-</h3>
-
-<p>
-Organized resources with trusted links,
-projects and learning materials.
-</p>
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- =====================================
-ANIMATED STATS
-===================================== -->
-
-
-<section class="stats-section">
-
-
-<div class="container">
-
-
-<div class="stats-grid">
-
-
-
-<div class="quantum-stat">
-
-<h2 class="counter">
-250+
-</h2>
-
-<p>
-Resources
-</p>
-
-</div>
-
-
-
-
-<div class="quantum-stat">
-
-<h2 class="counter">
-100+
-</h2>
-
-<p>
-Guides
-</p>
-
-</div>
-
-
-
-
-<div class="quantum-stat">
-
-<h2 class="counter">
-50+
-</h2>
-
-<p>
-Tutorials
-</p>
-
-</div>
-
-
-
-
-<div class="quantum-stat">
-
-<h2 class="counter">
-24/7
-</h2>
-
-<p>
-Access
-</p>
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- =====================================
-LEARNING TIMELINE
-===================================== -->
-
-
-<section class="learning-roadmap">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-
-<span>
-🛰 Learning Mission
-</span>
-
-
-<h2>
-Your IPTV Growth Journey
-</h2>
-
-
-<p>
-Follow the roadmap and build your IPTV knowledge step by step.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="roadmap">
-
-
-
-<div class="road-item">
-
-
-<div class="road-number">
-01
-</div>
-
-
-<div class="road-content">
-
-<h3>
-Start With IPTV Basics
-</h3>
-
-
-<p>
-Understand IPTV technology,
-streaming concepts and device compatibility.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="road-item">
-
-
-<div class="road-number">
-02
-</div>
-
-
-<div class="road-content">
-
-<h3>
-Explore Digital Resources
-</h3>
-
-
-<p>
-Discover guides, websites,
-tools and useful learning platforms.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="road-item">
-
-
-<div class="road-number">
-03
-</div>
-
-
-<div class="road-content">
-
-<h3>
-Master GitHub Projects
-</h3>
-
-
-<p>
-Explore IPTVPlayerGuide repository,
-developer resources and open-source projects.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="road-item">
-
-
-<div class="road-number">
-04
-</div>
-
-
-<div class="road-content">
-
-<h3>
-Watch Expert Tutorials
-</h3>
-
-
-<p>
-Learn setup methods and streaming
-configuration through video tutorials.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-<div class="road-item">
-
-
-<div class="road-number">
-05
-</div>
-
-
-<div class="road-content">
-
-<h3>
-Become Advanced User
-</h3>
-
-
-<p>
-Improve your knowledge and discover
-modern IPTV solutions.
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- =====================================
-FAQ SECTION
-===================================== -->
-
-
-<section class="quantum-faq" id="faq">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-<span>
-❓ Help Center
-</span>
-
-
-<h2>
-Frequently Asked Questions
-</h2>
-
-
-</div>
-
-
-
-
-
-<div class="faq-container">
-
-
-
-<div class="faq-box">
-
-
-<button class="faq-title">
-
-What is IPTV?
-
-<span>+</span>
-
-</button>
-
-
-<div class="faq-text">
-
-IPTV is a technology that delivers
-television content through internet networks
-instead of traditional cable systems.
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="faq-box">
-
-
-<button class="faq-title">
-
-Which devices support IPTV?
-
-<span>+</span>
-
-</button>
-
-
-<div class="faq-text">
-
-IPTV can be used on Smart TVs,
-Android devices, computers,
-streaming devices and mobile platforms.
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="faq-box">
-
-
-<button class="faq-title">
-
-Where can I find IPTV projects?
-
-<span>+</span>
-
-</button>
-
-
-<div class="faq-text">
-
-You can explore the GitHub section
-for IPTVPlayerGuide resources and projects.
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="faq-box">
-
-
-<button class="faq-title">
-
-Where can I watch tutorials?
-
-<span>+</span>
-
-</button>
-
-
-<div class="faq-text">
-
-Visit our YouTube Video Portal
-for IPTV setup and learning tutorials.
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<style>
-
-
-/* =====================
-FEATURES
-===================== */
-
-
-.quantum-features,
-.stats-section,
-.learning-roadmap,
-.quantum-faq{
-
-padding:120px 0;
-
-}
-
-
-
-.feature-grid{
-
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:30px;
-
-
-}
-
-
-
-.feature-card{
-
-
-padding:40px;
-
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border-radius:30px;
-
-
-border:1px solid rgba(255,255,255,.1);
-
-
-transition:.4s;
-
-
-}
-
-
-
-.feature-card:hover{
-
-
-transform:translateY(-15px);
-
-
-border-color:#00f5ff;
-
-
-box-shadow:
-
-0 20px 50px rgba(0,245,255,.15);
-
-
-}
-
-
-
-.feature-icon{
-
-
-font-size:60px;
-
-margin-bottom:20px;
-
-
-}
-
-
-
-.feature-card h3{
-
-
-font-size:26px;
-
-margin-bottom:15px;
-
-
-}
-
-
-
-.feature-card p{
-
-
-color:#cbd5e1;
-
-line-height:1.8;
-
-
-}
-
-
-
-
-
-/* =====================
-STATS
-===================== */
-
-
-.stats-grid{
-
+.stats{
 
 display:grid;
 
@@ -2376,1391 +350,1522 @@ grid-template-columns:repeat(4,1fr);
 
 gap:25px;
 
+margin-top:80px;
 
 }
 
+.stat{
 
-
-.quantum-stat{
-
-
-padding:40px;
-
-text-align:center;
-
-
-background:
-
-linear-gradient(
-135deg,
-rgba(0,245,255,.15),
-rgba(139,92,246,.15)
-);
-
-
-border-radius:30px;
-
+background:rgba(255,255,255,.05);
 
 border:1px solid rgba(255,255,255,.1);
-
-
-}
-
-
-
-.quantum-stat h2{
-
-
-font-family:'Orbitron';
-
-font-size:45px;
-
-color:#00f5ff;
-
-
-}
-
-
-
-.quantum-stat p{
-
-
-margin-top:10px;
-
-color:#ddd;
-
-
-}
-
-
-
-
-
-/* =====================
-ROADMAP
-===================== */
-
-
-.roadmap{
-
-
-max-width:900px;
-
-margin:auto;
-
-position:relative;
-
-
-}
-
-
-
-.roadmap::before{
-
-
-content:"";
-
-
-position:absolute;
-
-left:30px;
-
-top:0;
-
-bottom:0;
-
-width:3px;
-
-
-background:
-
-linear-gradient(
-#00f5ff,
-#ff00d4
-);
-
-
-}
-
-
-
-.road-item{
-
-
-display:flex;
-
-gap:30px;
-
-margin-bottom:45px;
-
-
-}
-
-
-
-.road-number{
-
-
-width:65px;
-
-height:65px;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-background:
-
-linear-gradient(
-135deg,
-#00f5ff,
-#8b5cf6
-);
-
-
-border-radius:50%;
-
-
-font-family:'Orbitron';
-
-font-size:20px;
-
-
-flex-shrink:0;
-
-
-}
-
-
-
-.road-content{
-
 
 padding:30px;
 
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border-radius:25px;
-
-
-border:1px solid rgba(255,255,255,.1);
-
-
-flex:1;
-
-
-}
-
-
-
-.road-content h3{
-
-
-font-size:27px;
-
-margin-bottom:15px;
-
-
-}
-
-
-
-.road-content p{
-
-
-color:#cbd5e1;
-
-line-height:1.8;
-
-
-}
-
-
-
-
-
-/* =====================
-FAQ
-===================== */
-
-
-.faq-container{
-
-
-max-width:900px;
-
-margin:auto;
-
-
-}
-
-
-
-.faq-box{
-
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border-radius:25px;
-
-
-margin-bottom:20px;
-
-
-border:1px solid rgba(255,255,255,.1);
-
-
-overflow:hidden;
-
-
-}
-
-
-
-.faq-title{
-
-
-width:100%;
-
-
-padding:25px 30px;
-
-
-background:none;
-
-
-border:none;
-
-
-color:white;
-
-
-font-size:20px;
-
-
-font-weight:600;
-
-
-display:flex;
-
-
-justify-content:space-between;
-
-
-cursor:pointer;
-
-
-}
-
-
-
-.faq-title span{
-
-
-color:#00f5ff;
-
-font-size:30px;
-
-
-}
-
-
-
-.faq-text{
-
-
-display:none;
-
-
-padding:0 30px 30px;
-
-
-color:#cbd5e1;
-
-
-line-height:2;
-
-
-}
-
-
-
-.faq-text.active{
-
-
-display:block;
-
-
-}
-
-
-
-
-
-@media(max-width:1000px){
-
-
-.feature-grid,
-.stats-grid{
-
-
-grid-template-columns:1fr 1fr;
-
-
-}
-
-
-}
-
-
-
-@media(max-width:600px){
-
-
-.feature-grid,
-.stats-grid{
-
-
-grid-template-columns:1fr;
-
-
-}
-
-
-.road-item{
-
-
-gap:15px;
-
-
-}
-
-
-.road-content h3{
-
-font-size:22px;
-
-}
-
-
-}
-
-
-
-</style>
-
-
-
-
-
-
-<script>
-
-
-// FAQ OPEN CLOSE
-
-
-document.querySelectorAll(".faq-title")
-.forEach(btn=>{
-
-
-btn.addEventListener("click",()=>{
-
-
-let answer =
-btn.nextElementSibling;
-
-
-answer.classList.toggle("active");
-
-
-
-});
-
-
-});
-
-
-
-</script>
-<!-- =====================================
-PART 4 : AUTHOR + CONTACT + FOOTER
-===================================== -->
-
-
-<section class="author-section">
-
-
-<div class="container">
-
-
-<div class="author-card">
-
-
-<div class="author-avatar">
-
-👨‍💻
-
-</div>
-
-
-<h2>
-Kevin Webix
-</h2>
-
-
-<h4>
-SEO Specialist • Web Designer • Content Strategist
-</h4>
-
-
-<p>
-
-Creating modern digital experiences with
-IPTV guides, technology resources,
-GitHub projects and educational platforms.
-
-</p>
-
-
-
-<div class="author-links">
-
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-💻 GitHub
-
-</a>
-
-
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank">
-
-▶ YouTube
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-
-<!-- =========================
-CONTACT
-========================= -->
-
-
-<section class="contact-section" id="contact">
-
-
-<div class="container">
-
-
-<div class="section-head">
-
-
-<span>
-📡 Connect With Us
-</span>
-
-
-<h2>
-Contact IPTV Quantum
-</h2>
-
-
-<p>
-Have questions, ideas or collaboration requests?
-Let's build something amazing.
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="contact-grid">
-
-
-
-<div class="contact-box">
-
-
-<h3>
-Send Message
-</h3>
-
-
-<input placeholder="Your Name">
-
-
-<input placeholder="Email Address">
-
-
-<input placeholder="Subject">
-
-
-<textarea rows="6"
-placeholder="Your Message"></textarea>
-
-
-
-<button>
-
-Send Message →
-
-</button>
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="contact-info">
-
-
-
-<div>
-
-📧
-
-<h4>Email</h4>
-
-<p>
-kevinwebix08@gmail.com
-</p>
-
-</div>
-
-
-
-
-<div>
-
-💻
-
-<h4>GitHub</h4>
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-IPTVPlayerGuide
-
-</a>
-
-</div>
-
-
-
-
-
-<div>
-
-🎥
-
-<h4>YouTube</h4>
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank">
-
-IPTV Tutorial
-
-</a>
-
-</div>
-
-
-
-</div>
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- =========================
-FOOTER
-========================= -->
-
-
-<footer>
-
-
-<div class="container footer-grid">
-
-
-
-<div>
-
-
-<h2>
-📡 IPTV Quantum
-</h2>
-
-
-<p>
-
-Future-focused IPTV learning platform
-with guides, GitHub projects,
-tutorials and streaming resources.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div>
-
-
-<h3>
-Navigation
-</h3>
-
-
-<a href="#home">
-Home
-</a>
-
-
-<a href="#resources">
-Resources
-</a>
-
-
-<a href="#github">
-GitHub
-</a>
-
-
-<a href="#videos">
-Videos
-</a>
-
-
-<a href="#faq">
-FAQ
-</a>
-
-
-
-</div>
-
-
-
-
-
-<div>
-
-
-<h3>
-Resources
-</h3>
-
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-GitHub Project
-
-</a>
-
-
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank">
-
-Video Tutorial
-
-</a>
-
-
-
-</div>
-
-
-
-
-
-
-<div>
-
-
-<h3>
-Follow
-</h3>
-
-
-<div class="footer-social">
-
-
-<a href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-💻
-
-</a>
-
-
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank">
-
-▶
-
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-<div class="copyright">
-
-
-© 2026 IPTV Quantum Hub
-<br>
-
-Designed by <b>Kevin Webix</b>
-
-
-</div>
-
-
-
-</footer>
-
-
-
-
-
-
-
-<!-- Scroll Top -->
-
-
-<button id="scrollTop">
-
-↑
-
-</button>
-
-
-
-
-
-
-
-<style>
-
-
-
-/* AUTHOR */
-
-
-.author-section,
-.contact-section{
-
-padding:120px 0;
-
-}
-
-
-
-.author-card{
-
+border-radius:20px;
 
 text-align:center;
 
-
-padding:70px 40px;
-
-
-background:
-
-linear-gradient(
-135deg,
-rgba(0,245,255,.15),
-rgba(255,0,212,.15)
-);
-
-
-border-radius:40px;
-
-
-border:1px solid rgba(255,255,255,.15);
-
+transition:.4s;
 
 }
 
+.stat:hover{
 
+transform:translateY(-8px);
 
-.author-avatar{
-
-
-width:140px;
-
-height:140px;
-
-
-margin:auto;
-
-
-border-radius:50%;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-font-size:70px;
-
-
-background:
-
-linear-gradient(
-135deg,
-#00f5ff,
-#8b5cf6
-);
-
+background:#00ffd510;
 
 }
 
+.stat h2{
 
+font-size:40px;
 
-.author-card h2{
+color:#00ffd5;
 
-
-font-family:'Orbitron';
-
-font-size:45px;
-
-margin:25px 0 10px;
-
+margin-bottom:10px;
 
 }
 
+.stat p{
 
-
-.author-card h4{
-
-
-color:#00f5ff;
-
+opacity:.8;
 
 }
 
+@media(max-width:991px){
 
-
-.author-card p{
-
-
-max-width:700px;
-
-margin:25px auto;
-
-line-height:2;
-
-color:#ddd;
-
-
-}
-
-
-
-.author-links{
-
-
-display:flex;
-
-justify-content:center;
-
-gap:20px;
-
-flex-wrap:wrap;
-
-
-}
-
-
-
-.author-links a{
-
-
-padding:16px 35px;
-
-
-border-radius:50px;
-
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#8b5cf6
-);
-
-
-text-decoration:none;
-
-color:white;
-
-
-}
-
-
-
-
-
-/* CONTACT */
-
-
-.contact-grid{
-
-
-display:grid;
-
-grid-template-columns:1fr .8fr;
-
-gap:40px;
-
-
-}
-
-
-
-.contact-box,
-.contact-info div{
-
-
-padding:35px;
-
-
-background:
-
-rgba(255,255,255,.06);
-
-
-border-radius:30px;
-
-
-border:1px solid rgba(255,255,255,.1);
-
-
-}
-
-
-
-.contact-box input,
-.contact-box textarea{
-
-
-width:100%;
-
-margin-bottom:20px;
-
-
-padding:18px;
-
-
-background:
-
-rgba(255,255,255,.08);
-
-
-border:none;
-
-
-border-radius:15px;
-
-
-color:white;
-
-
-}
-
-
-
-.contact-box button{
-
-
-padding:16px 35px;
-
-
-border:none;
-
-
-border-radius:50px;
-
-
-background:
-
-linear-gradient(
-90deg,
-#00f5ff,
-#ff00d4
-);
-
-
-color:white;
-
-
-font-weight:bold;
-
-
-}
-
-
-
-.contact-info{
-
-
-display:flex;
+.hero{
 
 flex-direction:column;
 
-gap:20px;
+padding-top:120px;
 
-
-}
-
-
-
-.contact-info h4{
-
-
-margin:15px 0;
-
+text-align:center;
 
 }
 
+.hero-btns{
 
-
-.contact-info a{
-
-
-color:#00f5ff;
-
-text-decoration:none;
-
+justify-content:center;
 
 }
 
+.stats{
 
-
-
-
-/* FOOTER */
-
-
-footer{
-
-
-padding:80px 0 30px;
-
-
-background:#020617;
-
+grid-template-columns:repeat(2,1fr);
 
 }
 
+nav ul{
 
+display:none;
 
-.footer-grid{
+}
 
+.circle{
+
+width:300px;
+
+height:300px;
+
+}
+
+.hero-content h1{
+
+font-size:45px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-content h1{
+
+font-size:35px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="glow"></div>
+<div class="glow2"></div>
+
+<header>
+
+<nav>
+
+<div class="logo">
+IPTV<span>Hub</span>
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#resources">Resources</a></li>
+
+<li><a href="#github">GitHub</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<a href="https://tereatv.com/billing/aff.php?aff=106" class="btn">
+Get IPTV
+</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="container hero">
+
+<div class="hero-content">
+
+<h1>
+
+Best <span>IPTV Services</span> & Resources 2026
+
+</h1>
+
+<p>
+
+Explore premium IPTV services, GitHub repositories,
+YouTube tutorials, IPTV guides, reviews,
+and useful streaming resources in one place.
+
+</p>
+
+<div class="hero-btns">
+
+<a href="#resources" class="btn">
+
+Explore Resources
+
+</a>
+
+<a href="https://tereatv.com/billing/aff.php?aff=106" class="btn">
+
+Visit TereaTV
+
+</a>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+
+<h2>10+</h2>
+
+<p>Trusted Resources</p>
+
+</div>
+
+<div class="stat">
+
+<h2>100%</h2>
+
+<p>Responsive</p>
+
+</div>
+
+<div class="stat">
+
+<h2>2026</h2>
+
+<p>Updated Guides</p>
+
+</div>
+
+<div class="stat">
+
+<h2>24/7</h2>
+
+<p>Available</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="circle">
+
+<i class="fa-solid fa-tv"></i>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===========================
+ABOUT SECTION
+=========================== -->
+
+<section id="about">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Why Choose IPTV Hub?</h2>
+
+<p>
+Discover trusted IPTV resources, guides, repositories, tutorials, and useful links all in one place.
+</p>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-box">
+
+<i class="fa-solid fa-tv"></i>
+
+<h3>Premium IPTV</h3>
+
+<p>
+Find quality IPTV services and updated streaming information.
+</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-brands fa-github"></i>
+
+<h3>GitHub Resources</h3>
+
+<p>
+Explore open-source IPTV repositories and helpful projects.
+</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-solid fa-book"></i>
+
+<h3>Complete Guides</h3>
+
+<p>
+Step-by-step IPTV tutorials for beginners and advanced users.
+</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-solid fa-video"></i>
+
+<h3>Video Tutorials</h3>
+
+<p>
+Watch IPTV setup videos and streaming demonstrations.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+FEATURED RESOURCES
+=========================== -->
+
+<section id="resources">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Featured IPTV Resources</h2>
+
+<p>
+
+Useful websites, IPTV guides, GitHub repositories, and streaming resources.
+
+</p>
+
+</div>
+
+<div class="resource-grid">
+
+<div class="resource-card">
+
+<i class="fa-solid fa-star"></i>
+
+<h3>TereaTV</h3>
+
+<p>Premium IPTV subscription platform.</p>
+
+<a href="https://tereatv.com/billing/aff.php?aff=106" target="_blank">
+Visit Website →
+</a>
+
+</div>
+
+<div class="resource-card">
+
+<i class="fa-solid fa-globe"></i>
+
+<h3>What Is IPTV</h3>
+
+<p>Learn everything about IPTV technology.</p>
+
+<a href="https://www.what-is-iptv.com/" target="_blank">
+Visit Website →
+</a>
+
+</div>
+
+<div class="resource-card">
+
+<i class="fa-solid fa-fire"></i>
+
+<h3>6 Best IPTV</h3>
+
+<p>Recommended IPTV services for 2026.</p>
+
+<a href="https://sites.google.com/view/6-best-iptv-2026/" target="_blank">
+Open Guide →
+</a>
+
+</div>
+
+<div class="resource-card">
+
+<i class="fa-solid fa-ranking-star"></i>
+
+<h3>17 Best IPTV</h3>
+
+<p>Top IPTV providers compared.</p>
+
+<a href="https://sites.google.com/view/17-best-iptv-2026/" target="_blank">
+Read Guide →
+</a>
+
+</div>
+
+<div class="resource-card">
+
+<i class="fa-solid fa-earth-americas"></i>
+
+<h3>GitHub Website</h3>
+
+<p>Best IPTV for USA project website.</p>
+
+<a href="https://best-iptv-for-usa.github.io/" target="_blank">
+Open Website →
+</a>
+
+</div>
+
+<div class="resource-card">
+
+<i class="fa-brands fa-github"></i>
+
+<h3>GitHub Repo</h3>
+
+<p>Explore IPTV source repository.</p>
+
+<a href="https://github.com/Best-IPTV-for-USA" target="_blank">
+View Repository →
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-title h2{
+
+font-size:42px;
+
+margin-bottom:15px;
+
+color:#00ffd5;
+
+}
+
+.section-title p{
+
+opacity:.8;
+
+max-width:800px;
+
+margin:auto;
+
+line-height:1.8;
+
+}
+
+.about-grid{
 
 display:grid;
 
 grid-template-columns:repeat(4,1fr);
 
-gap:40px;
-
-
-}
-
-
-
-footer h3{
-
-margin-bottom:20px;
-
-}
-
-
-
-footer a{
-
-
-display:block;
-
-margin-bottom:15px;
-
-
-color:#cbd5e1;
-
-
-text-decoration:none;
-
-
-}
-
-
-
-footer p{
-
-
-color:#94a3b8;
-
-line-height:2;
-
-
-}
-
-
-
-.footer-social{
-
-
-display:flex;
-
-gap:15px;
-
-
-}
-
-
-
-.footer-social a{
-
-
-width:55px;
-
-height:55px;
-
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-
-background:
-
-rgba(255,255,255,.1);
-
-
-border-radius:50%;
-
-
-font-size:25px;
-
-
-}
-
-
-
-.copyright{
-
-
-text-align:center;
-
+gap:30px;
 
 margin-top:50px;
 
+}
 
-padding-top:30px;
+.about-box{
 
+background:rgba(255,255,255,.05);
 
-border-top:1px solid rgba(255,255,255,.1);
+border:1px solid rgba(255,255,255,.08);
 
+border-radius:20px;
 
-color:#94a3b8;
+padding:40px 30px;
 
+text-align:center;
+
+transition:.4s;
 
 }
 
+.about-box:hover{
 
+transform:translateY(-10px);
 
-/* SCROLL BUTTON */
-
-
-#scrollTop{
-
-
-position:fixed;
-
-
-right:30px;
-
-bottom:30px;
-
-
-width:55px;
-
-height:55px;
-
-
-border:none;
-
-
-border-radius:50%;
-
-
-background:
-
-linear-gradient(
-135deg,
-#00f5ff,
-#8b5cf6
-);
-
-
-color:white;
-
-
-font-size:25px;
-
-
-cursor:pointer;
-
-
-display:none;
-
-
-z-index:999;
-
+background:#00ffd510;
 
 }
 
+.about-box i{
 
+font-size:45px;
 
+margin-bottom:20px;
 
+color:#00ffd5;
 
-@media(max-width:900px){
+}
 
+.about-box h3{
 
-.contact-grid,
-.footer-grid{
+margin-bottom:15px;
 
+}
+
+.about-box p{
+
+opacity:.8;
+
+line-height:1.8;
+
+}
+
+.resource-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.resource-card{
+
+background:rgba(255,255,255,.05);
+
+border-radius:20px;
+
+padding:35px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.4s;
+
+}
+
+.resource-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 30px rgba(0,255,213,.2);
+
+}
+
+.resource-card i{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+color:#00ffd5;
+
+}
+
+.resource-card h3{
+
+margin-bottom:15px;
+
+}
+
+.resource-card p{
+
+opacity:.8;
+
+margin-bottom:20px;
+
+line-height:1.7;
+
+}
+
+.resource-card a{
+
+display:inline-block;
+
+padding:12px 25px;
+
+background:#00ffd5;
+
+color:#111;
+
+border-radius:40px;
+
+font-weight:600;
+
+}
+
+@media(max-width:991px){
+
+.about-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.resource-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.about-grid{
 
 grid-template-columns:1fr;
 
+}
+
+.resource-grid{
+
+grid-template-columns:1fr;
 
 }
 
+}
+
+</style>
+<!-- ==========================================
+GITHUB & OPEN SOURCE SECTION
+========================================== -->
+
+<section id="github">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Open Source IPTV Resources</h2>
+
+<p>
+Browse GitHub repositories, GitLab projects, Bitbucket codebases,
+Gogs repositories and YouTube tutorials.
+</p>
+
+</div>
+
+<div class="repo-grid">
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-brands fa-github"></i>
+</div>
+
+<h3>Best IPTV for USA</h3>
+
+<p>
+Explore GitHub repository with IPTV related resources.
+</p>
+
+<a href="https://github.com/Best-IPTV-for-USA" target="_blank">
+Open Repository →
+</a>
+
+</div>
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-brands fa-github"></i>
+</div>
+
+<h3>IPTVPlayerGuide</h3>
+
+<p>
+Useful IPTV player documentation and examples.
+</p>
+
+<a href="https://github.com/IPTVPlayerGuide" target="_blank">
+View Project →
+</a>
+
+</div>
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-brands fa-gitlab"></i>
+</div>
+
+<h3>GitLab Project</h3>
+
+<p>
+Source code and IPTV development resources.
+</p>
+
+<a href="https://gitlab.com/kevinwebix08/kevinwebix08-project" target="_blank">
+Visit GitLab →
+</a>
+
+</div>
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-brands fa-bitbucket"></i>
+</div>
+
+<h3>Bitbucket</h3>
+
+<p>
+Premium IPTV comparison project repository.
+</p>
+
+<a href="https://bitbucket.org/bestiptvservices/best-iptv-usa-2026-top-legal-providers" target="_blank">
+Open Bitbucket →
+</a>
+
+</div>
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-solid fa-code-branch"></i>
+</div>
+
+<h3>Gogs Repository</h3>
+
+<p>
+Mirror repository with IPTV resources.
+</p>
+
+<a href="https://try.gogs.io/bestiptv/best-iptv-services-providers-in-2026/" target="_blank">
+Visit Gogs →
+</a>
+
+</div>
+
+<div class="repo-card">
+
+<div class="repo-icon">
+<i class="fa-brands fa-youtube"></i>
+</div>
+
+<h3>YouTube Tutorial</h3>
+
+<p>
+Watch IPTV setup and streaming tutorial.
+</p>
+
+<a href="https://www.youtube.com/watch?v=EACnD4l_YXg" target="_blank">
+Watch Video →
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================================
+COUNTERS
+========================================== -->
+
+<section id="stats2">
+
+<div class="container">
+
+<div class="counter-grid">
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="11">0</h2>
+
+<p>Trusted Resources</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="500">0</h2>
+
+<p>Helpful Guides</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="1000">0</h2>
+
+<p>Daily Visitors</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="100">0</h2>
+
+<p>Free Tutorials</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================================
+YOUTUBE VIDEO
+========================================== -->
+
+<section id="video">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Featured IPTV Video</h2>
+
+<p>
+Watch our recommended IPTV tutorial.
+</p>
+
+</div>
+
+<div class="video-box">
+
+<iframe
+src="https://www.youtube.com/embed/EACnD4l_YXg"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.repo-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.repo-card{
+
+background:rgba(255,255,255,.05);
+
+padding:35px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.4s;
+
+text-align:center;
+
+}
+
+.repo-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 35px rgba(0,255,213,.2);
+
+}
+
+.repo-icon{
+
+width:80px;
+
+height:80px;
+
+margin:auto;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:#00ffd515;
+
+margin-bottom:25px;
+
+}
+
+.repo-icon i{
+
+font-size:38px;
+
+color:#00ffd5;
+
+}
+
+.repo-card h3{
+
+margin-bottom:15px;
+
+}
+
+.repo-card p{
+
+line-height:1.8;
+
+opacity:.8;
+
+margin-bottom:25px;
+
+}
+
+.repo-card a{
+
+display:inline-block;
+
+padding:12px 28px;
+
+background:#00ffd5;
+
+color:#111;
+
+border-radius:40px;
+
+font-weight:600;
+
+}
+
+.counter-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:30px;
+
+}
+
+.counter-box{
+
+padding:40px;
+
+text-align:center;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.counter-box h2{
+
+font-size:55px;
+
+color:#00ffd5;
+
+margin-bottom:15px;
+
+}
+
+.video-box{
+
+overflow:hidden;
+
+border-radius:25px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.4);
+
+}
+
+.video-box iframe{
+
+width:100%;
+
+height:600px;
+
+border:none;
+
+}
+
+@media(max-width:991px){
+
+.repo-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.counter-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.video-box iframe{
+
+height:420px;
+
+}
+
+}
+
+@media(max-width:650px){
+
+.repo-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.counter-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.video-box iframe{
+
+height:250px;
+
+}
 
 }
 
 </style>
 
-
-
-
-
-
-
 <script>
 
+const counters=document.querySelectorAll(".counter");
 
-// SCROLL TOP
+counters.forEach(counter=>{
 
+counter.innerText="0";
 
-let topButton=document.getElementById(
-"scrollTop"
-);
+const updateCounter=()=>{
 
+const target=+counter.getAttribute("data-target");
 
-window.addEventListener(
-"scroll",
-()=>{
+const c=+counter.innerText;
 
+const increment=target/150;
 
-if(window.scrollY>400){
+if(c<target){
 
-topButton.style.display="block";
+counter.innerText=`${Math.ceil(c+increment)}`;
+
+setTimeout(updateCounter,15);
+
+}else{
+
+counter.innerText=target+"+";
 
 }
 
-else{
+};
 
-topButton.style.display="none";
-
-}
-
+updateCounter();
 
 });
 
+</script>
+<!-- ===========================
+FAQ SECTION
+=========================== -->
 
+<section id="faq">
 
-topButton.onclick=()=>{
+<div class="container">
 
+<div class="section-title">
+<h2>Frequently Asked Questions</h2>
+<p>Find quick answers about IPTV services and streaming resources.</p>
+</div>
+
+<div class="faq">
+
+<div class="faq-item">
+<button class="faq-btn">
+What is IPTV?
+<span>+</span>
+</button>
+<div class="faq-content">
+<p>IPTV delivers television content over an internet connection instead of traditional cable or satellite.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-btn">
+Are these IPTV resources free?
+<span>+</span>
+</button>
+<div class="faq-content">
+<p>Some resources are free while others may offer premium subscriptions or paid services.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-btn">
+Can I use IPTV on Smart TV?
+<span>+</span>
+</button>
+<div class="faq-content">
+<p>Yes. Most IPTV services support Smart TVs, Android TV, Firestick, Windows, macOS and mobile devices.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-btn">
+Where can I learn IPTV?
+<span>+</span>
+</button>
+<div class="faq-content">
+<p>Explore the guides, GitHub repositories and YouTube tutorials available on this website.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+CONTACT
+=========================== -->
+
+<section id="contact">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Get In Touch</h2>
+
+<p>
+Need IPTV resources or have suggestions?
+Feel free to contact us.
+</p>
+
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<i class="fa-solid fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>support@example.com</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fa-brands fa-github"></i>
+
+<h3>GitHub</h3>
+
+<a href="https://github.com/Best-IPTV-for-USA" target="_blank">
+
+Visit Repository →
+
+</a>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fa-brands fa-youtube"></i>
+
+<h3>YouTube</h3>
+
+<a href="https://www.youtube.com/watch?v=EACnD4l_YXg" target="_blank">
+
+Watch Video →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+FOOTER
+=========================== -->
+
+<footer>
+
+<div class="container">
+
+<h2>IPTV Hub</h2>
+
+<p>
+
+Your trusted destination for IPTV guides,
+GitHub resources and streaming tutorials.
+
+</p>
+
+<div class="footer-links">
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#resources">Resources</a>
+
+<a href="#github">GitHub</a>
+
+<a href="#faq">FAQ</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 IPTV Hub. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<div id="progressBar"></div>
+
+<style>
+
+.faq{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.faq-item{
+
+margin-bottom:20px;
+
+background:rgba(255,255,255,.05);
+
+border-radius:15px;
+
+overflow:hidden;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.faq-btn{
+
+width:100%;
+
+padding:22px;
+
+background:none;
+
+border:none;
+
+color:#fff;
+
+font-size:18px;
+
+font-weight:600;
+
+display:flex;
+
+justify-content:space-between;
+
+cursor:pointer;
+
+}
+
+.faq-content{
+
+max-height:0;
+
+overflow:hidden;
+
+transition:.4s;
+
+padding:0 22px;
+
+}
+
+.faq-content p{
+
+padding-bottom:20px;
+
+line-height:1.8;
+
+opacity:.85;
+
+}
+
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.contact-card{
+
+background:rgba(255,255,255,.05);
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.4s;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.contact-card i{
+
+font-size:45px;
+
+color:#00ffd5;
+
+margin-bottom:20px;
+
+}
+
+.contact-card a{
+
+color:#00ffd5;
+
+}
+
+footer{
+
+padding:60px 8%;
+
+text-align:center;
+
+background:#02040b;
+
+}
+
+footer h2{
+
+color:#00ffd5;
+
+margin-bottom:20px;
+
+}
+
+.footer-links{
+
+margin:30px 0;
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.footer-links a:hover{
+
+color:#00ffd5;
+
+}
+
+.copyright{
+
+opacity:.6;
+
+margin-top:25px;
+
+}
+
+#topBtn{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#00ffd5;
+
+color:#111;
+
+cursor:pointer;
+
+display:none;
+
+font-size:20px;
+
+z-index:999;
+
+}
+
+#progressBar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:4px;
+
+background:#00ffd5;
+
+width:0;
+
+z-index:9999;
+
+}
+
+@media(max-width:991px){
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<script>
+
+/* FAQ */
+
+document.querySelectorAll(".faq-btn").forEach(btn=>{
+
+btn.onclick=()=>{
+
+const content=btn.nextElementSibling;
+
+content.style.maxHeight=content.style.maxHeight?
+
+null:
+
+content.scrollHeight+"px";
+
+}
+
+});
+
+/* Scroll Button */
+
+const topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.documentElement.scrollTop>400){
+
+topBtn.style.display="block";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+const winScroll=document.documentElement.scrollTop;
+
+const height=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+
+document.getElementById("progressBar").style.width=(winScroll/height)*100+"%";
+
+};
+
+topBtn.onclick=()=>{
 
 window.scrollTo({
 
@@ -3770,329 +1875,37 @@ behavior:"smooth"
 
 });
 
-
 };
 
-
-
-
-
-// MOUSE GLOW
-
-
-const glow=document.createElement("div");
-
-
-glow.style.position="fixed";
-
-glow.style.width="200px";
-
-glow.style.height="200px";
-
-glow.style.borderRadius="50%";
-
-glow.style.background="#00f5ff";
-
-glow.style.filter="blur(100px)";
-
-glow.style.pointerEvents="none";
-
-glow.style.opacity=".25";
-
-glow.style.zIndex="-1";
-
-
-document.body.appendChild(glow);
-
-
-
-document.addEventListener(
-"mousemove",
-(e)=>{
-
-
-glow.style.left=e.clientX-100+"px";
-
-glow.style.top=e.clientY-100+"px";
-
-
-});
-
-
-
-
-
-// FLOATING PARTICLES
-
-
-for(let i=0;i<40;i++){
-
-
-let particle=document.createElement("span");
-
-
-particle.style.position="fixed";
-
-particle.style.width="4px";
-
-particle.style.height="4px";
-
-particle.style.background="#00f5ff";
-
-particle.style.borderRadius="50%";
-
-particle.style.left=Math.random()*100+"%";
-
-particle.style.top=Math.random()*100+"%";
-
-particle.style.opacity=".5";
-
-particle.style.animation=
-"floatParticle 8s infinite";
-
-
-document.body.appendChild(particle);
-
-
-}
-
-
-
 </script>
+<!-- Author Section -->
 
+<div class="author-card">
 
+    <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Author">
 
+    <h3>Kevin Webix</h3>
 
+    <span>SEO Specialist</span>
 
-<style>
+    <p>
+        Passionate about SEO, IPTV resources, web development, and creating high-quality online guides.
+    </p>
 
+    <div class="author-social">
 
-@keyframes floatParticle{
+        <a href="mailto:kevinwebix08@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
 
+        <a href="https://github.com/Best-IPTV-for-USA" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
 
-0%{
+        <a href="https://www.youtube.com/watch?v=EACnD4l_YXg" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
 
-transform:translateY(0);
-
-}
-
-
-50%{
-
-transform:translateY(-80px);
-
-}
-
-
-100%{
-
-transform:translateY(0);
-
-}
-
-
-}
-
-</style>
-
-
-
-<!-- NAVBAR -->
-
-
-<header class="navbar">
-
-<div class="container nav-flex">
-
-
-<div class="logo">
-
-📡 IPTV QUANTUM
+    </div>
 
 </div>
-
-
-
-<div class="nav-links">
-
-<a href="#home">Home</a>
-
-<a href="#resources">Resources</a>
-
-<a href="#github">GitHub</a>
-
-<a href="#videos">Videos</a>
-
-<a href="#faq">FAQ</a>
-
-</div>
-
-
-
-<div class="nav-buttons">
-
-
-<a class="nav-btn"
-href="https://github.com/IPTVPlayerGuide"
-target="_blank">
-
-GitHub
-
-</a>
-
-
-
-<a class="nav-btn primary-btn"
-href="#resources">
-
-Explore
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-</header>
-
-
-
-
-
-<!-- HERO SECTION -->
-
-
-<section class="hero" id="home">
-
-
-<div class="container hero-grid">
-
-
-
-<div>
-
-
-<div class="hero-tag">
-
-🚀 Next Generation IPTV Platform 2026
-
-</div>
-
-
-
-<h1>
-
-
-Explore The
-
-<span>
-
-Future Of IPTV
-
-</span>
-
-Resources
-
-
-</h1>
-
-
-
-<p>
-
-Discover IPTV tutorials, GitHub projects,
-streaming guides, player resources and
-educational content inside one futuristic
-digital ecosystem.
-
-
-</p>
-
-
-
-
-<div class="hero-actions">
-
-
-<a href="#resources"
-class="action-btn">
-
-Explore Galaxy →
-
-</a>
-
-
-
-<a href="https://www.youtube.com/watch?v=EACnD4l_YXg"
-target="_blank"
-class="video-btn">
-
-▶ Watch Tutorial
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="hero-visual">
-
-
-<div class="ring one"></div>
-
-<div class="ring two"></div>
-
-<div class="ring three"></div>
-
-
-
-<div class="core"></div>
-
-
-
-<div class="core-card">
-
-
-<h2>
-
-IPTV Quantum
-
-</h2>
-
-
-<p>
-
-Your smart hub for IPTV knowledge,
-tools, tutorials and community resources.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-</div>
-
-
-</section>
-
-
-
-</body>
-
-</html>
